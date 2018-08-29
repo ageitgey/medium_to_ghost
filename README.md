@@ -1,11 +1,11 @@
 # Medium to Ghost 2.0
 
-Feeling locked into Medium.com? Instantly move all your content (formatted posts + images) to an open source blog!
+Feeling locked into Medium.com? Instantly move all your content (formatted posts + images) to an open source [Ghost 2.0](https://blog.ghost.org/2-0/) blog!
 
 ![Migrate your data out of Medium to Ghost](https://user-images.githubusercontent.com/896692/44764117-0c097c80-ab03-11e8-8925-bcc4c584059c.png)
 
 This code converts all your Medium.com posts to a Ghost 2.0.x import file. With that,
-you can import all your content into a Ghost blog (hosted anywhere) in seconds. Your posts keep
+you can import all your content into a [Ghost](https://ghost.org/) blog (hosted anywhere) in seconds. Your posts keep
 the same formatting and all your images are migrated over too.
 
 ## Why?
