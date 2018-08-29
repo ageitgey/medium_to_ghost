@@ -78,7 +78,7 @@ When exporting content from Medium, the following features are supported:
 
 ## Warnings!
 
-- Hopefully this code will work for you, but it have bugs and cause your computer to explode. Make sure you 
+- Hopefully this code will work for you, but it mayhave bugs and cause your computer to explode. Make sure you 
   test everything out on a test Ghost instance before you import anything into a live blog.
 - Ghost does not let you set a Canonical Url for a post! This means that your new Ghost blog will
   duplicate your existing Medium.com posts and that may mess with your Google rankings. Please [vote for
