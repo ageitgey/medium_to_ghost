@@ -1,0 +1,264 @@
+{
+  "version": "0.3.1",
+  "atoms": [
+    [
+      "soft-return",
+      "",
+      {}
+    ],
+    [
+      "soft-return",
+      "",
+      {}
+    ]
+  ],
+  "cards": [
+    [
+      "image",
+      {
+        "src": "https://cdn-images-1.medium.com/max/800/1*hTaXwJ9dgL7gnK3virPfvw.jpeg"
+      }
+    ],
+    [
+      "image",
+      {
+        "src": "https://cdn-images-1.medium.com/max/800/1*nTBS_XRDlu8KH3bA3iwXKg.png"
+      }
+    ]
+  ],
+  "markups": [
+    [
+      "em"
+    ],
+    [
+      "strong"
+    ],
+    [
+      "a",
+      [
+        "href",
+        "http://www.nytimes.com/1984/03/31/style/paris-pneumatique-is-now-a-dead-letter.html"
+      ]
+    ],
+    [
+      "a",
+      [
+        "href",
+        "http://www.nytimes.com/1984/03/31/style/paris-pneumatique-is-now-a-dead-letter.html"
+      ]
+    ],
+    [
+      "a",
+      [
+        "href",
+        "https://translate.googleusercontent.com/translate_c?depth=1&hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=fr&tl=en&u=https://fr.wikipedia.org/wiki/Patrice_de_Mac_Mahon&usg=ALkJrhgcRFEdc31-Ebnd3jIvUpW9zuZMlQ"
+      ]
+    ]
+  ],
+  "sections": [
+    [
+      1,
+      "p",
+      [
+        [
+          0,
+          [],
+          0,
+          "A paragraph."
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                        "
+        ]
+      ]
+    ],
+    [
+      1,
+      "p",
+      [
+        [
+          0,
+          [],
+          0,
+          "Some additional text."
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                        "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                            "
+        ]
+      ]
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      1,
+      "p",
+      [
+        [
+          0,
+          [],
+          0,
+          "Here's something else."
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                        "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                            "
+        ]
+      ]
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      1,
+      "p",
+      [
+        [
+          0,
+          [
+            2,
+            1
+          ],
+          2,
+          "PARIS PNEUMATIQUE IS NOW A DEAD LETTER"
+        ],
+        [
+          1,
+          [],
+          0,
+          1
+        ],
+        [
+          0,
+          [
+            2,
+            0
+          ],
+          2,
+          "The epistolary tradition, which has been steadily running out of breath in this country since Madame de Sta\"el, took\u2026"
+        ],
+        [
+          0,
+          [
+            2
+          ],
+          1,
+          "www.nytimes.com"
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                            "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                        "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                        "
+        ]
+      ]
+    ],
+    [
+      1,
+      "p",
+      [
+        [
+          0,
+          [],
+          0,
+          "In 1879, "
+        ],
+        [
+          0,
+          [
+            4
+          ],
+          1,
+          "Marshal MacMahon"
+        ],
+        [
+          0,
+          [],
+          0,
+          ", President of the Republic signed a decree opening the public network of pneumatic tubes."
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                        "
+        ]
+      ]
+    ],
+    [
+      1,
+      "p",
+      [
+        [
+          0,
+          [],
+          0,
+          "A final paragraph."
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                    "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n                "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n            "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n        "
+        ],
+        [
+          0,
+          [],
+          0,
+          "\n        "
+        ]
+      ]
+    ]
+  ]
+}
