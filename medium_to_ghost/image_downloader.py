@@ -1,5 +1,6 @@
 import logging
 import urllib.request
+from urllib.error import HTTPError
 from pathlib import Path
 
 
@@ -29,6 +30,10 @@ def download_image_with_local_cache(url: str, cache_folder: Path):
     if local_destination.exists():
         logging.info(f"{local_destination} already exists. Using cached copy.")
     else:
-        local_filename, headers = urllib.request.urlretrieve(url, local_destination)
+        try:
+            local_filename, headers = urllib.request.urlretrieve(url, local_destination)
+        except HTTPError as e:
+            logging.error(f"Download failed for {local_destination}. Error Message: {e.msg}")
 
     return local_destination
+
