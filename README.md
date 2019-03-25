@@ -80,11 +80,10 @@ When exporting content from Medium, the following features are supported:
 
 - Hopefully this code will work for you, but it may have bugs and cause your computer to explode. Make sure you 
   test everything out on a test Ghost instance before you import anything into a live blog.
-- Ghost does not let you set a Canonical Url for a post! This means that your new Ghost blog will
-  duplicate your existing Medium.com posts and that may mess with your Google rankings. Please [vote for
-  this suggestion on Ghost](https://forum.ghost.org/t/change-canonical-url/28) and ask them nicely to 
-  support the ability to set canonical urls. If that was supported, this tool could automatically set 
-  up the exported Ghost posts to point back to Medium URLs to avoid any SEO impact.
-- Ghost 2.0.3 has [a bug with image paths in import files](https://github.com/TryGhost/Ghost/issues/9821).
+- Starting with Ghost v2.17, you can set the canonical url of a post. This tool will attempt to automatically set 
+  up the imported Ghost posts to point back to original Medium URLs to avoid any SEO impact of switching blogging platforms. 
+  If you don't want your posts to point back to Medium, you will need to go in and remove the Canonical URL setting for 
+  each imported post. 
+- Ghost 2.0.3+ has [a bug with image paths in import files](https://github.com/TryGhost/Ghost/issues/9821).
   This tool may need to be updated when that bug is fixed in order for it to keep working, but it works 
-  for now with 2.0.3. 
+  for now (Checked up to Ghost 2.18.3). 
