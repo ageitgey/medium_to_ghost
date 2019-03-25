@@ -13,7 +13,7 @@ requirements = [
 
 setup(
     name='medium_to_ghost',
-    version='0.0.2',
+    version='0.0.3',
     description="Convert a Medium blog export file to Ghost 2.0 format (including images)",
     long_description=readme,
     packages=['medium_to_ghost'],
