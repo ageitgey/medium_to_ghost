@@ -31,7 +31,7 @@ def create_export_file(converted_posts):
             {
                 "meta": {
                     "exported_on": int(time.time()),
-                    "version": "2.0.3"
+                    "version": "2.18.3"
                 },
                 "data": {
                     "posts": converted_posts

@@ -45,6 +45,12 @@ def convert_medium_post_to_ghost_json(html_filename, post_html_content):
     # - Subtitle
     subtitle = soup.find("section", {"class": "p-summary"}).text if soup.find("section", {"class": "p-summary"}) else None
 
+    # Canonical link
+    canonical_link = None
+    canonical_link_el = soup.find("a", {"class": "p-canonical"})
+    if canonical_link_el is not None:
+        canonical_link = canonical_link_el["href"]
+
     # Medium stores every comment as full story.
     # Guess if this post was a comment or a post based on if it has a post title h3 or not.
     # If it seems to be a comment, skip converting it since we have no idea what it was a comment on.
@@ -102,6 +108,7 @@ def convert_medium_post_to_ghost_json(html_filename, post_html_content):
         "uuid": uuid,
         "title": title,
         "slug": slug,
+        "canonical_url": canonical_link,
         "mobiledoc": json.dumps(mobiledoc_post),
         "html": post_html_content,
         "comment_id": comment_id,
