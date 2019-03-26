@@ -51,7 +51,7 @@ pip install medium_to_ghost
 1. Go to https://medium.com/me/settings and find `Download your information`. There's a button to export your data and 
    email it to you. 
 1. Wait for the email from Medium and download your zip file. This will give you a file called `medium-export.zip`
-1. Run `python3 medium_to_ghost.py medium-export.zip` which will produce `medium_export_for_ghost.zip`.
+1. Run `python3 -m medium_to_ghost.medium_to_ghost medium-export.zip` which will produce `medium_export_for_ghost.zip`.
    This new zip file contains all your converted Medium posts and images from your posts. Make sure to put the full path
    to the zip file if it's not in the current directory. This may take a few minutes if you have lots of images
    in your posts since they all have to be downloaded.
