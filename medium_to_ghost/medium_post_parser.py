@@ -42,6 +42,8 @@ def convert_medium_post_to_ghost_json(html_filename, post_html_content):
 
     # - Article Title
     title = soup.find("h1", {"class": "p-name"}).text
+    if not title:
+        title = "Empty title"
     # - Subtitle
     subtitle = soup.find("section", {"class": "p-summary"}).text if soup.find("section", {"class": "p-summary"}) else None
 
