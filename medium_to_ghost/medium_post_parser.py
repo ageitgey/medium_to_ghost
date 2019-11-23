@@ -457,7 +457,7 @@ class MediumHTMLParser(HTMLParser):
 
         # If this text is part of an image caption, slap that caption on the last Image card so the caption
         # ends up in the right place and bail out.
-        if "figcaption" in self.tag_stack:
+        if "figcaption" in self.tag_stack and len(self.cards):
             self.cards[-1][1]["caption"] = data
             return
 
