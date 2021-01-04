@@ -21,6 +21,9 @@ clean-test: ## remove test and coverage artifacts
 lint:
 	flake8 medium_to_ghost tests
 
+readme:
+	pandoc -s -t rst README.md -o README.rst
+
 test:
 	python3 setup.py test
 
